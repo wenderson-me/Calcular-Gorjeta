@@ -1,0 +1,96 @@
+/*** BODY ***/
+
+body {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1.4em;
+    background-image: url("https://cdn.pixabay.com/photo/2012/02/28/10/19/business-18107_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*** CONTAINER ***/
+
+#container {
+    margin: 100px auto;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+    width: 400px;
+    background-color: #ffae00;
+    border-radius: 5%;
+    box-shadow: 5px 5px 20px 5px;
+}
+
+/*** CONTAINER CONTENTS ***/
+
+input {
+    border-radius: 5px;
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+
+select {
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+}
+
+/***  STYLING & ANIMATING THE CALCULATE BUTTON ***/
+
+#calculate {
+    font-family: 'Didact Gothic', sans-serif;
+    display: block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #ffff;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+#calculate span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#calculate:hover span {
+    padding-right: 25px;
+}
+
+#calculate:hover span::after {
+    opacity: 1;
+    right: 0;
+}
+
+/*** TOTAL TIP ***/
+
+#totalTip {
+    border-radius: 10%;
+    padding: 5px;
+    margin: 15px auto;
+    width: 90px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
