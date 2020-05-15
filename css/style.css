@@ -15,8 +15,8 @@ body {
     padding: 10px;
     text-align: center;
     height: auto;
-    width: 400px;
-    background-color: #ffae00;
+    width: 600px;
+    background-color: #ffae;
     border-radius: 5%;
     box-shadow: 5px 5px 20px 5px;
 }
@@ -67,11 +67,20 @@ select {
     transition: 0.5s;
 }
 
+#calculate span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
 #calculate:hover span {
     padding-right: 25px;
 }
 
-#calculate:hover span::after {
+#calculate:hover span:after {
     opacity: 1;
     right: 0;
 }
