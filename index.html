@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- CUSTOM FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
+
+    <title>| Minimus Calculadora |</title>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Calcular Gorjeta</h1>
+        <h5>Deixa eu calcular a gorjeta para você!</h5>
+        <h5>Qaunto foi a conta ?</h5>
+
+        <form>
+            <!-- user input -->
+            <input id="userAmount" type="text" placeholder="R$">
+
+            <h5>Quanto você quer dar de gorjeta ?</h5>
+            <!-- options -->
+            <section id="options">
+                <option value="0.1">10 &#37;</option>
+                <option value="0.2">20 &#37;</option>
+            </section>
+        </form>
+
+        <!-- people amount -->
+        <h5>Quantas pessoas ?</h5>
+        <input type="text" id="peopleAmount" placeholder="...">
+        <button id="calculate"> <span>Calcular!</span> </button>
+
+        <!-- Total tip -->
+        <div id="totalTip">
+            <sup>R$</sup> <span id="tip">0.00</span>
+            <small id="each">reais</small>
+        </div>
+
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
